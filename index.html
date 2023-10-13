@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js-hw-06</title>
+  </head>
+  <body>
+    <h1>Банківський Менеджмент Рахунків</h1>
+
+    <label for="accountNumber">Номер Аккаунту:</label>
+    <input
+      type="text"
+      id="accountNumber"
+      placeholder="Введіть банківський аккаунт"
+    />
+
+    <label for="amount">Сумма:</label>
+    <input
+      type="number"
+      id="amount"
+      placeholder="Введіть сумму яку хочете покласти на рахунок"
+    />
+
+    <button onclick="deposit()">Внести сумму</button>
+    <button onclick="withdraw()">Вивести сумму</button>
+
+    <div id="balance">Баланс: UAH 0.00</div>
+    <script src="./task1.js"></script>
+  </body>
+</html>
